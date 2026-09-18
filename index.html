@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Electron App</title>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+    body {
+      margin: 0;
+      background-color: #000000;
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+    }
+    .blue-btn {
+  display: inline-block;
+  background-color: #007bff; /* nice electric blue */
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  transition: background-color 0.2s ease;
+  margin-top: 15px;
+}
+
+.blue-btn:hover {
+  background-color: #339af0; /* lighter blue on hover */
+}
+  </style>
+
+  </head>
+  <body>
+    <h1>ooo you opened this app</h1>
+    <p>would you like a meat pie?</p>
+    <a href="https://www.allrecipes.com/recipe/76296/meat-pie/" target="_blank" class="blue-btn">get meat pie</a>
+    <script type="module" src="/src/renderer.ts"></script>
+  
+  </body>
+</html>
